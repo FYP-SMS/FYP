@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <string name="app_name">SMS Scheduler Pro</string>
+
+    <string name="time">Time: </string>
+    <string name="yourDevicenotsupportMicroPhone">Your device does not support Microphone</string>
+    <string name="ok">OK</string>
+    <string name="permissionRecordStatment">You cannot record voice unless you allow Permission</string>
+    <string name="permissionContactStatment">You cannot load contacts from Contactlist unless you allow Permission</string>
+    <string name="permissionSMSstatment">You cannot send SMS unless you allow Permission</string>
+    <string name="alert">Alert!</string>
+    <string name="goBackStatment">Do you want to go back?</string>
+    <string name="no">No</string>
+    <string name="yes">Yes</string>
+    <string name="lessThanCurrentDate">Date is less than current date</string>
+    <string name="selectedContacts">Selected Contacts</string>
+    <string name="deleteOption">Delete</string>
+    <string name="cancelOption">Cancel</string>
+    <string name="setRepeatingTime">Set Repeating Time</string>
+    <string name="update">Update</string>
+    <string name="messageError">Message Error</string>
+    <string name="pleaseEnterCorrectProfile">Please enter correct Profile Name</string>
+    <string name="noContactSeleted">phone number not selected</string>
+    <string name="inExactScheduleTimeMustBeGreaterThan">Time must be greater than current time</string>
+    <string name="noWeeksDaysSelected">No week days selected</string>
+    <string name="selectSendOnly">Please select (send only) in Custom</string>
+    <string name="selectCheckBox">Please select any Checkbox</string>
+    <string name="tryanother">Profile Already exists.Try another Name</string>
+    <string name="selectTemplate">Select Template</string>
+    <string name="selectWeeks">Select days of week</string>
+    <string name="sendSuccessfully">SENT Successfully, Status:</string>
+    <string name="sentAt">Sent: </string>
+    <string name="sendFail">Sending Fail, Status:</string>
+    <string name="message">Message: </string>
+    <string name="every">Every</string>
+    <string name="yourMessage">Your Message</string>
+    <string name="repeat">Repeat: </string>
+    <string name="days">Days </string>
+    <string name="hours">Hours </string>
+    <string name="minutes">Minutes </string>
+    <string name="sureYouWantTODelete">Do You Want To Delete?</string>
+    <string name="sureYouWantToEdit">Do You Want To Edit?</string>
+    <string name="smsCallSedular">SMS CALL SCHEDULER</string>
+    <string name="outGoingSMS">OutGoing SMS</string>
+    <string name="inCommingSMS">InComing SMS</string>
+    <string name="mode">MODE</string>
+    <string name="addTemplate">Add Template</string>
+    <string name="youCannotModifyTemplate">You Cannot Modify this Template</string>
+    <string name="whatDoUWant">What do U want to do?</string>
+    <string name="edit">Edit</string>
+    <string name="template">Template</string>
+    <string name="add">Add</string>
+    <string name="enter_profile_name">Enter Profile Name</string>
+    <string name="phone_number_or_name">Phone number or Name</string>
+    <string name="write_message">Write message</string>
+    <string name="set_time">Set time</string>
+    <string name="daliy">Daily</string>
+    <string name="weekly">Weekly</string>
+    <string name="exact_date">Exact date</string>
+    <string name="custom">Custom</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="loading_contacts">Loading Contacts…</string>
+    <string name="no_sms_scheduled_please_schedule_sms_create_profile">No SMS scheduled.Please schedule SMS(Create Profile)</string>
+    <string name="sms_schedular">SMS Scheduler</string>
+    <string name="templates">Templates</string>
+    <string name="call_scheduler">Call Scheduler</string>
+    <string name="histroy">History</string>
+    <string name="help">Help</string>
+    <string name="select_all">Select All</string>
+    <string name="un_select_all">Select None</string>
+    <string name="errorTapForDetails">Error!! Tap for details</string>
+    <string name="failed">Failed</string>
+    <string name="error">Error</string>
+    <string name="profile">Profile:</string>
+    <string name="messageSendingNotification">Sending Notification:</string>
+    <string name="messageNotification">SMS Scheduler (Message Status Notification)</string>
+    <string name="sending">Sending</string>
+    <string name="send_message_now"> Send message now </string>
+
+
+    <string-array name="spinneItem">
+        <item>Send Only</item>
+        <item>1 Time</item>
+        <item>2 Times</item>
+        <item>3 Times</item>
+        <item>4 Times</item>
+        <item>5 Times</item>
+        <item>6 Times</item>
+        <item>7 Times</item>
+        <item>8 Times</item>
+        <item>9 Times</item>
+        <item>10 Times</item>
+        <item>11 Times</item>
+        <item>12 Times</item>
+        <item>13 Times</item>
+
+        <item>14 Times</item>
+        <item>15 Times</item>
+        <item>16 Times</item>
+        <item>17 Times</item>
+        <item>18 Times</item>
+        <item>19 Times</item>
+        <item>20 Times</item>
+        <item>Until I delete the Profile</item>
+
+
+    </string-array>
+
+
+    <string-array name="weekdays">
+        <item>Sunday</item>
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+
+
+    </string-array>
+
+
+    <string-array name="templates">
+        <item>I am Busy</item>
+        <item>I am busy in meeting</item>
+        <item>I am driving</item>
+
+
+    </string-array>
+
+
+    <string-array name="phraseModeOn">
+        <item>busy</item>
+        <item>meeting</item>
+        <item>driving</item>
+
+
+    </string-array>
+
+    <string-array name="phraseMessages">
+        <item>I am busy, i will contact you soon</item>
+        <item>I am in meeting.Talk to you soon</item>
+        <item>I am driving now.</item>
+
+
+    </string-array>
+
+
+    <string-array name="phraseModeOff">
+        <item>I am free</item>
+        <item>deactivate all status</item>
+        <item>deactivate all modes</item>
+
+
+    </string-array>
+
+
+    <string-array name="settingTitles">
+        <item>SIM Setting</item>
+        <item>Reply Only</item>
+        <item>Contacts Or Non Contacts</item>
+        <item>Ignore Numbers</item>
+        <item>Reply To Same Contact</item>
+        <item>Silent During Mode</item>
+        <item>Phrase To Make MODE</item>
+        <item>Phrase To Deactivate MODES</item>
+    </string-array>
+
+
+    <string-array name="settingDescription">
+        <item>Select SIM to send your message(Dual Sim)</item>
+        <item>Reply to calls,messages or both</item>
+        <item>Send message to contacts,non contacts or both</item>
+        <item>Number\'s length lower than LOWER and greater than UPPER will be ignored</item>
+        <item>Reply to second message/call of same contact(during Mode)</item>
+        <item>Silent during active manual mode</item>
+        <item>Phrases to make Mode instantly by voice</item>
+        <item>Phrases to deactivate all manual modes</item>
+    </string-array>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="outgoing">OutGoing</string>
+    <string name="contacts">Contacts</string>
+    <string name="DoUClearHistory">Do you want to clear all History?</string>
+    <string name="SentTo">Sent To</string>
+    <string name="EnterValidMessage">Enter a Valid Message</string>
+    <string name="TapHereToCheckContacts">Tap Here to Check Selected Contacts</string>
+    <string name="SetAproptTimeInterval">Set appropriate time intervals</string>
+    <string name="LessThanCurrentTime">Less Than current time</string>
+    <string name="Manual">Manual</string>
+    <string name="To">To</string>
+    <string name="cannotModifyThisPhrase">You cannot modify this phrase</string>
+    <string name="addPhraseToMakeMode">Add Phrase to make Mode(Profile easily)</string>
+    <string name="save">Save</string>
+    <string name="addPhrase">Add Phrase</string>
+    <string name="phraseToTurnOffAllModes">Phrase to deactivate all manual modes</string>
+    <string name="addPhraseToOffVoice">Add Phrase to deactivate mode through voice</string>
+    <string name="General">GENERAL</string>
+    <string name="modes">MODES</string>
+    <string name="voice">VOICE</string>
+    <string name="selectSim">Select SIM</string>
+    <string name="youHaveOneSim">You have only one SIM</string>
+    <string name="featureNotSupportedVersion">Feature is not supported(For this Android version should be greater than 5.0)</string>
+    <string name="sendMessageTo">Send Message To</string>
+    <string name="AllIncomingNumber">All incoming number(Contacts and Unknown numbers)</string>
+    <string name="onlyUnknownNumbers">Only to unknown numbers</string>
+    <string name="onlyToMyContacts">Only to my contacts</string>
+    <string name="reply">Reply</string>
+    <string name="bothIncomingCallSms">Both(Incoming Calls and SMS)</string>
+    <string name="onlyOneTime">Once Only</string>
+    <string name="selectMinutes">Select minutes</string>
+    <string name="everyTime">Every time</string>
+    <string name="onlyToSms">Only to SMS</string>
+    <string name="onlyToCalls">Only to Calls</string>
+    <string name="selectLengthHelp">Select Length(More details in HELP)</string>
+    <string name="replyToSecondCallSmsSameContact">Reply to second message/call from the same contact</string>
+    <string name="silentDuringMode">Silent during Modes</string>
+    <string name="ON">ON</string>
+    <string name="OFF">OFF</string>
+    <string name="sendMessageAfterMinute">Send message after minute/minutes</string>
+    <string name="mode_name">Mode Name</string>
+    <string name="set_intervals">Set Intervals:</string>
+    <string name="by_date_and_time">By Date and Time</string>
+    <string name="reply_to">Reply To:</string>
+    <string name="all_contacts">All Contacts</string>
+    <string name="all_contacts_except_these">All Contacts except these</string>
+    <string name="add_phrase_mode_name_which_u_will_speak_try_short_like_busy">Add Phrase(Mode Name) which u will speak(try short like (busy) )</string>
+    <string name="enter_message_assoiated_with_phrase_mode">Enter message assoiated with Phrase(Mode)</string>
+    <string name="no_sending_history">No Sending History</string>
+    <string name="incoming_messages_have_not_scheduled_please_create_profile">Incoming Messages have not scheduled. Please create Profile</string>
+    <string name="no_mode_registered_please_create_one_like_driving">No Mode Registered.Please create one like (driving)</string>
+    <string name="lower_limit">Lower Limit</string>
+    <string name="upper_limit">Upper Limit</string>
+    <string name="satus">Status:  </string>
+    <string name="statuss">status</string>
+
+    <string name="inComing">InComing</string>
+
+
+    <string name="deactivateManualStatus">Deactivated all manual Modes</string>
+
+
+    <string name="Hoursx">hours</string>
+    <string name="Minutesx">minutes</string>
+    <string name="Hour">hour</string>
+    <string name="Minute">minute</string>
+    <string name="ONEx">one</string>
+    <string name="TWO">two</string>
+    <string name="THREE">three</string>
+    <string name="FOUR">four</string>
+    <string name="FIVE">five</string>
+    <string name="sorryInotUnderstandUSiad">Sorry, i did not understand what you said</string>
+    <string name="okIwillTellUrContacts">OK i will tell your contacts</string>
+    <string name="modeIsActivatedUWillNotGetDisturbed"> is activated!Do not worry i will reply your all contacts now.</string>
+    <string name="iWillInformYourContactsBetween">i will inform your contacts between the given time</string>
+    <string name="Listeneing">Listening</string>
+    <string name="LanguageForCountrySpecifc">en</string>
+    <string name="LanguageadataIsMissingOrLanguageNotSupported">Language data is missing(Text to Speech)</string>
+    <string name="iHaveNotSeenAnyManualMode">Sorry,I have not seen any registered manual mode</string>
+    <string name="tap_mic_icon_to_speak">Tap Mic icon to speak</string>
+    <string name="Settingsx">Settings</string>
+    <string name="more">More</string>
+    <string name="rate_us">Rate Us</string>
+    <string name="about_app">About App</string>
+    <string name="contact_us">Contact Us</string>
+
+
+    <string name="_1_schedule_messages_daily_weekly_or_at_exact_date_as_you_set_alarms_in_your_devices">1: Schedule messages daily, weekly or on the exact date as you set up alarms in your devices.</string>
+    <string name="_2_in_custom_you_can_set_time_for_repeating_and_can_specify_the_number_of_times_you_want_to_send_a_message">2: In CUSTOM you can set a time for repeating the messages and can specify the number of times to send a message.</string>
+    <string name="_1_you_can_reply_automatically_to_messages_or_calls_of_selected_contacts_after_replying_to_all_contacts_only_one_message_to_one_contact_profile_will_be_deleted">1: You can automatically reply to messages or calls from selected contacts.After replying to all contacts(just a single message to one contact) profile will be erased.</string>
+    <string name="_2_you_can_reply_only_to_calls_or_sms_or_both_settings">2: You can reply to calls or SMS or both (Settings).</string>
+    <string name="_1_create_mode_like_driving_and_it_will_reply_to_all_contacts_or_all_contacts_except_selected_contacts">1: Create MODE (like Driving) and it will answer to all contacts aside from selected contacts.</string>
+    <string name="_2_select_manual_to_activate_or_deactivate_modes_by_yourself_or_sepcify_time_by_date_or_weekly_to_active_modes_between_your_specified_time">2: Choose "Manual" to activate or deactivate modes yourself or specify time to activate modes automatically between your designated time.</string>
+    <string name="_3_when_multiple_modes_will_active_only_one_mode_will_send_a_message_to_a_contact_if_it_fails_then_other_mode_and_so_on">3: When you may set off multiple modes, only 1 mode can send a message to a contact.If it fails then alternative mode so on.</string>
+    <string name="_4_in_manual_modes_mobile_will_be_silent_automatically_but_in_other_categories_you_have_to_silent_by_yourself_you_can_change_this_in_settings_note_this_is_not_the_case_with_modes_made_by_speaking">4: In manual modes, mobile will be silent automatically but in other categories, you will have to silent yourself. You can change this in Settings(Note this is not the case with modes created by voice).</string>
+    <string name="_5_you_can_send_messages_to_contacts_non_contacts_and_can_specify_lenght_of_numbers_you_want_to_reply_country_code_may_be_counted_1_settings">5: You can send messages to contacts, unknown numbers and can indicate a length of numbers(Country code might be counted(+1 etc))(Settings).</string>
+    <string name="_1_you_can_create_mode_instantly_by_saying_a_phrase_you_can_add_your_own_phrase_and_a_message_in_settings">1: You can create mode instantly by saying a phrase.You can include your own particular phrase and a message in Settings.</string>
+    <string name="_2_you_cannot_delete_existing_phrases_but_your_phrases_have_higher_priority">2: You cannot delete existing phrases however your phrases have higher priority.</string>
+    <string name="_3_when_you_will_speak_a_phrase_to_make_mode_first_it_will_check_the_manual_modes_matching_your_phrase_and_will_active_it_otherwise_it_will_make_a_new_mode">3: When you speak a phrase to form a mode, first, it matches names of manual with your phrase and activates it. Else, it makes a new mode.</string>
+    <string name="_4_deactivate_phrases_will_deactivate_all_manual_modes_you_have_to_delete_other_modes_by_yourself">4: Deactivating phrases deactivate all manual modes.</string>
+    <string name="_5_you_can_speak_hours_and_minutes_like_i_am_busy_for_one_hour_etc_and_it_will_automatically_reply_and_turn_your_mobile_to_silent_between_specified_time_once_time_will_complete_it_will_set_your_ringer_volume_to_maximum">5: You can speak for hours and minutes like(I am busy for two hours or for 35 minutes etc). Consequently, it creates a mode(if not present) and silences your mobile between the indicated time. When the time ends it sets your ringer volume to maximum.</string>
+    <string name="settingsPermissionx">You can only change the settings if you allow the permission</string>
+    <string name="emailRequestDialog">Ask questions about the app, report errors and bugs, request new features at bonitoz.inc@gmail.com</string>
+    <string name="send_email_now">Send Email Now</string>
+    <string name="for_more_information_mail_us">For more information, send us an email</string>
+</resources>

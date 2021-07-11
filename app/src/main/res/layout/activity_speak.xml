@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:waveview="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+
+    android:weightSum="6"
+    android:layout_height="match_parent"
+    tools:context=".SpeakActivity">
+
+
+
+
+
+
+
+     <TextView
+         android:layout_width="wrap_content"
+         android:layout_marginTop="34dp"
+         android:layout_height="wrap_content"
+         android:text="@string/tap_mic_icon_to_speak"
+         android:textColor="@color/Black"
+         android:id="@+id/textSpeak"
+         android:layout_marginStart="17dp"
+         android:textSize="25sp"
+         android:layout_gravity="end"
+         android:layout_marginEnd="5dp"
+         android:padding="12dp"
+
+
+
+         android:background="@drawable/i_text_bubble"
+
+
+         android:textAlignment="textEnd"
+
+          />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_marginTop="34dp"
+        android:layout_height="wrap_content"
+        android:padding="12dp"
+        android:layout_marginStart="5dp"
+
+        android:id="@+id/textReplySpeak"
+        android:textSize="25sp"
+        android:text="..."
+        android:layout_marginEnd="17dp"
+
+        android:textColor="@color/White"
+        android:background="@drawable/you_text_bubble"
+
+
+        android:textAlignment="textStart"
+
+        />
+
+
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="45dp"
+        android:layout_weight="3"
+        android:background="?android:attr/selectableItemBackground"
+
+        android:onClick="speakButtonClick"
+        waveview:srcCompat="@drawable/ic_speak" />
+
+
+
+
+</LinearLayout>

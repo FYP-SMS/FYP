@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout6"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".InComingCalls">
+
+
+    <TextView
+        android:id="@+id/textViewSMSOUTGOING"
+        android:layout_width="match_parent"
+        android:layout_marginTop="12dp"
+        android:textStyle="bold"
+
+        android:textSize="23sp"
+        android:textAlignment="center"
+        android:layout_height="wrap_content"
+        android:text="@string/outGoingSMS" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:textSize="17sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/_1_schedule_messages_daily_weekly_or_at_exact_date_as_you_set_alarms_in_your_devices" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="6dp"
+        android:textSize="17sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/_2_in_custom_you_can_set_time_for_repeating_and_can_specify_the_number_of_times_you_want_to_send_a_message" />
+
+
+
+
+
+
+
+
+
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="match_parent"
+        android:textAlignment="center"
+        android:textSize="23sp"
+        android:textStyle="bold"
+        android:layout_marginTop="14dp"
+        android:layout_height="wrap_content"
+        android:text="@string/inCommingSMS" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="match_parent"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:textSize="17sp"
+
+        android:layout_height="wrap_content"
+        android:text="@string/_1_you_can_reply_automatically_to_messages_or_calls_of_selected_contacts_after_replying_to_all_contacts_only_one_message_to_one_contact_profile_will_be_deleted" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="match_parent"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="8dp"
+        android:textSize="17sp"
+        android:layout_marginStart="8dp"
+        android:layout_height="wrap_content"
+        android:text="@string/_2_you_can_reply_only_to_calls_or_sms_or_both_settings" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="match_parent"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textSize="23sp"
+
+        android:layout_marginTop="14dp"
+        android:layout_height="wrap_content"
+        android:text="@string/mode" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="match_parent"
+
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:textSize="17sp"
+        android:layout_height="wrap_content"
+        android:text="@string/_1_create_mode_like_driving_and_it_will_reply_to_all_contacts_or_all_contacts_except_selected_contacts" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="match_parent"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:textSize="17sp"
+        android:layout_height="wrap_content"
+        android:text="@string/_2_select_manual_to_activate_or_deactivate_modes_by_yourself_or_sepcify_time_by_date_or_weekly_to_active_modes_between_your_specified_time" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="match_parent"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="8dp"
+        android:textSize="17sp"
+        android:layout_marginStart="8dp"
+        android:layout_height="wrap_content"
+        android:text="@string/_3_when_multiple_modes_will_active_only_one_mode_will_send_a_message_to_a_contact_if_it_fails_then_other_mode_and_so_on" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="match_parent"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:textSize="17sp"
+        android:layout_height="wrap_content"
+        android:text="@string/_4_in_manual_modes_mobile_will_be_silent_automatically_but_in_other_categories_you_have_to_silent_by_yourself_you_can_change_this_in_settings_note_this_is_not_the_case_with_modes_made_by_speaking" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="8dp"
+        android:textSize="17sp"
+        android:layout_marginStart="8dp"
+        android:text="@string/_5_you_can_send_messages_to_contacts_non_contacts_and_can_specify_lenght_of_numbers_you_want_to_reply_country_code_may_be_counted_1_settings" />
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="match_parent"
+
+
+        android:textAlignment="center"
+        android:textSize="23sp"
+android:textStyle="bold"
+        android:layout_marginTop="14dp"
+
+        android:layout_height="wrap_content"
+        android:text="@string/voice" />
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="match_parent"
+        android:layout_marginTop="12dp"
+        android:textSize="17sp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_height="wrap_content"
+        android:text="@string/_1_you_can_create_mode_instantly_by_saying_a_phrase_you_can_add_your_own_phrase_and_a_message_in_settings" />
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="match_parent"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="8dp"
+        android:textSize="17sp"
+        android:layout_marginStart="8dp"
+        android:layout_height="wrap_content"
+        android:text="@string/_2_you_cannot_delete_existing_phrases_but_your_phrases_have_higher_priority" />
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="match_parent"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:textSize="17sp"
+        android:layout_height="wrap_content"
+        android:text="@string/_3_when_you_will_speak_a_phrase_to_make_mode_first_it_will_check_the_manual_modes_matching_your_phrase_and_will_active_it_otherwise_it_will_make_a_new_mode" />
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="match_parent"
+        android:layout_marginTop="6dp"
+        android:textSize="17sp"
+        android:layout_marginEnd="8dp"
+
+        android:layout_marginStart="8dp"
+        android:layout_height="wrap_content"
+        android:text="@string/_4_deactivate_phrases_will_deactivate_all_manual_modes_you_have_to_delete_other_modes_by_yourself" />
+
+
+
+
+    <TextView
+        android:id="@+id/textView25z"
+        android:layout_width="match_parent"
+        android:layout_marginTop="6dp"
+        android:textSize="17sp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_height="wrap_content"
+        android:text="@string/_5_you_can_speak_hours_and_minutes_like_i_am_busy_for_one_hour_etc_and_it_will_automatically_reply_and_turn_your_mobile_to_silent_between_specified_time_once_time_will_complete_it_will_set_your_ringer_volume_to_maximum" />
+
+    <TextView
+        android:layout_width="match_parent"
+
+        android:textSize="23sp"
+        android:text="@string/for_more_information_mail_us"
+        android:layout_marginTop="23dp"
+        android:textAlignment="center"
+        android:layout_height="wrap_content" />
+
+
+    <TextView
+        android:id="@+id/textbbbb"
+        android:layout_width="match_parent"
+        android:layout_marginTop="22dp"
+        android:textSize="17sp"
+
+        android:textStyle="bold"
+        android:layout_marginEnd="8dp"
+        android:textAlignment="center"
+        android:padding="10dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginBottom="34dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimary"
+        android:text="bonitoz.inc@gmail.com" />
+
+
+</LinearLayout>
+</ScrollView>

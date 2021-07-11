@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+
+     >
+
+
+        <include layout="@layout/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".IncomingCallsSchedule">
+
+
+    <EditText
+        android:id="@+id/editIncomingProfileName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="@string/enter_profile_name"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <AutoCompleteTextView
+        android:id="@+id/editIncomingPhoneNo"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+
+
+        android:completionThreshold="1"
+
+
+        android:hint="@string/phone_number_or_name"
+        app:layout_constraintEnd_toStartOf="@+id/imageIncomingButton"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editIncomingProfileName" />
+
+    <ImageButton
+        android:id="@+id/imageIncomingButton"
+        android:layout_width="57dp"
+        android:layout_height="56dp"
+        android:onClick="incomingClick"
+        android:layout_marginEnd="16dp"
+
+
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editIncomingProfileName"
+        app:srcCompat="@drawable/ic_contacts"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:id="@+id/textIncomingSelectedShower"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:onClick="incomingClick"
+        android:layout_marginStart="16dp"
+
+
+        android:layout_marginTop="8dp"
+        android:background="@color/LightGrey"
+        android:elevation="8dp"
+        android:text="@string/selectedContacts"
+        android:textAlignment="center"
+
+
+        android:padding="7dp"
+        android:textSize="23sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageIncomingButton" />
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="12dp"
+
+        android:layout_marginTop="8dp"
+        app:cardBackgroundColor="@color/MintCream"
+        app:cardCornerRadius="12dp"
+        app:layout_constraintBottom_toTopOf="@id/imageButtonTemplates"
+        app:layout_constraintEnd_toEndOf="parent"
+
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textIncomingSelectedShower">
+
+
+        <EditText
+            android:id="@+id/messageIncomingBox"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="7dp"
+            android:layout_gravity="center"
+            android:hint="@string/write_message"
+            android:inputType="textAutoCorrect|textMultiLine"
+            android:scrollbars="vertical"
+
+
+            />
+    </android.support.v7.widget.CardView>
+
+    <ImageButton
+        android:id="@+id/imageIncmoingMic"
+        android:layout_width="89dp"
+        android:layout_height="53dp"
+        android:layout_marginEnd="16dp"
+        android:onClick="incomingClick"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardView"
+        app:srcCompat="@drawable/ic_mic"
+        tools:ignore="ContentDescription" />
+
+    <ImageButton
+        android:id="@+id/imageIncomingButtonTemplates"
+        android:layout_width="89dp"
+        android:layout_height="53dp"
+        android:layout_marginEnd="8dp"
+        android:onClick="incomingClick"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toStartOf="@+id/imageIncmoingMic"
+        app:layout_constraintTop_toBottomOf="@+id/cardView"
+        app:srcCompat="@drawable/ic_template"
+        tools:ignore="ContentDescription" />
+
+  <!--  <Switch
+        android:id="@+id/switch1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="28dp"
+        android:text="Switch"
+        app:layout_constraintEnd_toStartOf="@+id/imageIncmoingMic"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageIncomingButtonTemplates" />
+
+    <EditText
+        android:id="@+id/editPattrenIncoming"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.475"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/switch1" />-->
+
+
+</android.support.constraint.ConstraintLayout>
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.smscallpro.xhahxam.bonitozz.autocallsmspro">
+
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.READ_CALL_LOG" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <application
+        android:name=".App"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".SmsSedular"
+
+
+            android:exported="true"
+
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AddOutGoingSms"
+            android:configChanges="orientation|screenSize" />
+        <activity
+            android:name=".ContactListSelector"
+            android:configChanges="orientation|screenSize" />
+
+        <receiver
+            android:name=".SmsBroadCast"
+            android:process=":service"
+            android:exported="true"
+           android:enabled="true"
+            android:permission="android.permission.BROADCAST_SMS">
+            <intent-filter>
+                <action android:name="android.provider.Telephony.SMS_RECEIVED" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name=".OnAlarmReciver"
+            android:exported="true"
+            android:process=":service"
+            android:enabled="true"
+             />
+        <receiver
+            android:name=".RecicvingSMSDelivery"
+            android:enabled="true"
+            />
+        <receiver android:name=".CallReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.PHONE_STATE" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.NEW_OUTGOING_CALL" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name=".RestartResetAlarm"
+            android:enabled="true">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name=".ProcessSms"
+            android:enabled="true"
+            android:exported="false" />
+        <service
+            android:name=".RestartResetService"
+            android:enabled="true"
+            android:exported="false" />
+
+        <activity
+            android:name=".HistoryContactsReports"
+
+            android:configChanges="orientation|screenSize" />
+        <activity android:name=".Mode_Entry"
+            android:configChanges="orientation|screenSize"
+            />
+
+        <service
+            android:name=".ReceiveSMSService"
+            android:enabled="true"
+            android:exported="false" />
+
+        <activity android:name=".IncomingCallsSchedule"
+            android:configChanges="orientation|screenSize"
+            />
+        <activity android:name=".PhraseEdit"
+            android:configChanges="orientation|screenSize"
+            />
+        <activity android:name=".PhraseOff"
+
+            android:configChanges="orientation|screenSize"
+            />
+
+
+
+
+        <activity android:name=".SpeakActivity"
+            android:icon="@drawable/ic_mic_black"
+
+            android:launchMode="singleTask"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <action android:name="com.smscallpro.xhahxam.bonitozz.autocallsmspro.SpeakActivity" />
+
+
+
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+
+
+
+
+    </application>
+
+</manifest>

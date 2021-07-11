@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_message"
+            android:icon="@drawable/ic_message"
+            android:title="@string/sms_schedular" />
+
+
+        <item
+            android:id="@+id/nav_Templates"
+            android:icon="@drawable/ic_sms"
+            android:title="@string/templates" />
+
+
+        <item
+            android:id="@+id/nav_history"
+            android:icon="@drawable/ic_history"
+            android:title="@string/histroy" />
+
+        <item
+            android:id="@+id/nav_Settings"
+            android:icon="@drawable/ic_settingsx"
+            android:title="@string/Settingsx" />
+
+
+        <item
+            android:id="@+id/nav_help"
+            android:icon="@drawable/ic_help"
+            android:title="@string/help" />
+
+
+        <item
+            android:id="@+id/nav_info"
+            android:icon="@drawable/ic_info_b"
+            android:title="@string/about_app" />
+    </group>
+
+
+    <item android:title="@string/more">
+        <menu>
+
+
+            <item
+                android:id="@+id/nav_rateus"
+                android:icon="@drawable/ic_thumb_up"
+                android:title="@string/rate_us" />
+
+            <item
+                android:id="@+id/nav_mailus"
+                android:icon="@drawable/ic_mail_b"
+                android:title="@string/contact_us" />
+
+        </menu>
+    </item>
+
+
+</menu>
